@@ -1,0 +1,78 @@
+<!Doctype html>
+<html>
+  <head><title>Flight Fare prediction</title>
+   <link rel="stylesheet" href="stylesheet.css"> 
+  </head>
+    <body>
+      <h1 id='head'>Flight fare prediction</h1>
+        <form action="{{url_for('predict')}}" style="margin:auto; width:220px;" method="post">
+        
+        <p>
+          <h3 >Source  
+         <select name="source" id="source" required="required">
+                <option value="Kolkata">Kolkata</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+            </select> 
+         </h3>
+      </p>
+        
+          
+        <p>
+          <h3>Destination
+        <select name="destination" id="destination" required="required">
+                <option value="Cochin">Cochin</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="New Delhi">New Delhi</option>
+                <option value="Banglore">Banglore</option>
+            </select> 
+      </h3></p>  
+        
+        
+  <p><h3>Departure <input type='datetime-local' name="departure" id="departure" required="required"></h3 ></p>  
+         <p>
+          <h3>Arrival <input type='datetime-local' name='arrival' id='arrival' required='required'></h3> 
+         </p> 
+           
+           
+        <p>
+        <h3>Stops 
+        <select name="stops" id="stops" required="required">
+            <option value="0">Non-stop</option>
+            <option value="1">1 stop</option>
+            <option value="2">2 stops</option></option>
+            <option value="3">3 stops</option>
+            <option value="4">4 stops</option>
+        </select></h3>
+        </p>
+
+         <p>
+        <h3>Airline 
+        <select name="airline" id="airline" required="required">
+            <option value="Air India">Air India</option>
+            <option value="GoAir">GoAir</option>
+            <option value="IndiGo">IndiGo</option>
+            <option value="Jet Airways">Jet Airways</option>
+            <option value="Jet Airways Business">Jet Airways Business</option>
+            <option value="Multiple carriers">Multiple carriers</option>
+            <option value="Multiple carriers Premium economy">Multiple carriers Premium economy</option>
+            <option value="SpiceJet">SpiceJet</option>
+            <option value="Trujet">Trujet</option>
+            <option value="Vistara">Vistara</option>
+            <option value="Vistara Premium economy">Vistara Premium economy</option>
+            <option value="Air asia">Air asia</option>
+        </select>
+          </h3></p>
+          
+        <p>
+          <button id="submit" name="submit">Submit</button>
+          </p>
+         
+         <p><h1>{{result}}</h1></p>
+        </form>
+    </body>
+</html>

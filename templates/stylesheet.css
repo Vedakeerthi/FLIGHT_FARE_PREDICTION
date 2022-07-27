@@ -1,0 +1,56 @@
+
+    body{
+        background-color: #6767bd;
+        border: 17px black;
+        text-align:center;
+        padding:100px;
+        align-items: center;
+    }
+    
+    h3{
+      color:white;
+      padding:5px;
+      text-align:center;
+      
+    }
+    
+    h1{
+    color:black;
+    padding:5px;
+    text-align:center;
+    font-size:30px;
+    }
+    
+    #head{
+      font-size: 50px;
+      font-family: Garamond, Helvetica, sans-serif;
+      text-align: center;
+      color:white;
+    }
+    
+    #source,#destination,#departure,#arrival,#stops,#airline{
+      background-color:black;
+      width: 200px;
+      height: 23px;
+      text-align: center;
+      font-size: 15px;
+      font-family: 'Times New Roman', Times, serif;
+      color:white;
+    }
+ 
+    #submit {
+            color: #6767bd;
+            font-size: 25px;
+            overflow: hidden;
+            text-align :center;
+            box-shadow: 2px 2px gray;
+    }
+        
+    #submit:hover {
+            color: #111;
+            background: #83EEFF;
+            box-shadow: 0 0 50px #83EEFF;
+    }
+    
+    
+  
