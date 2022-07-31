@@ -50,7 +50,7 @@ The requirement for developing this model is present in the [requirements.txt](h
 
 The development of the model is present in the [main.ipynb](https://github.com/Vedakeerthi/FLIGHT_FARE_PREDICTION/blob/main/main.ipynb) file.
 
-The pickle file of the model for deployment is present in [car price prediction](https://github.com/Vedakeerthi/FLIGHT_FARE_PREDICTION/blob/main/Flight_fare_prediction.pkl) folder.
+The pickle file of the model for deployment is present in [flight fare prediction](https://github.com/Vedakeerthi/FLIGHT_FARE_PREDICTION/blob/main/Flight_fare_prediction.pkl) folder.
 
 The flask framework for the web app development is made in the [app.py](https://github.com/Vedakeerthi/FLIGHT_FARE_PREDICTION/blob/main/app.py) file.
 
